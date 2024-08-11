@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+
+ <div class="container">
+  <div class="part1">
+    <h1>Bank Balence Checker</h1>
+    <div>
+      <input type="number" id="depositAmount" placeholder="deposit Amount">
+      <button onclick="deposit()">deposit</button>
+    </div>
+    <div>
+      <input type="number" id="withdrawAmount" placeholder="withdraw Amount">
+      <button onclick="withdraw()">withdraw</button>
+    </div>
+    <div>
+      <button onclick="showBalance()">show Balance</button>
+    </div>
+    <h2 id="balance">.Current Balance: $0 </h2>
+    </div>
+
+     <div class="part2">
+    <img src="2.png" alt="">
+     </div>
+
+  </div>
+
+  <script src="bank.js"></script>
+</body>
+</html>
